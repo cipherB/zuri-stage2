@@ -98,7 +98,7 @@ body {
 }
 
 .skills ul{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -115,6 +115,10 @@ body {
     .skills li {
         padding: 2% 0;
     }
+}
+
+.progress {
+    width: 80%;
 }
 
 .experience {
